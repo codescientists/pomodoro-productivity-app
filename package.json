@@ -1,5 +1,5 @@
 {
-  "name": "client",
+  "name": "pomodoro-productivity-app",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -11,10 +11,20 @@
   "dependencies": {
     "next": "12.1.0",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-audio-player": "^0.17.0",
+    "react-circular-progressbar": "^2.0.4",
+    "react-countdown": "^2.3.2",
+    "react-dom": "17.0.2",
+    "timer-node": "^5.0.5",
+    "uifx": "^2.0.7"
   },
   "devDependencies": {
+    "autoprefixer": "^10.4.2",
     "eslint": "8.10.0",
-    "eslint-config-next": "12.1.0"
+    "eslint-config-next": "12.1.0",
+    "file-loader": "^6.2.0",
+    "postcss": "^8.4.8",
+    "tailwindcss": "^3.0.23",
+    "url-loader": "^4.1.1"
   }
 }
